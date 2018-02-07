@@ -1,0 +1,42 @@
+
+title{
+	text-align: center;
+}
+body{
+	position: relative;
+}
+nav li {
+	box-sizing: border-box;
+	background-color: #b106ff;
+	border: 2px solid rgba(188, 19, 57, 99);
+	font-family: serif ;
+	margin:  .4em;
+	padding: .5em;
+	text-align: left;
+	width: 6em;
+}
+.logoStudioPlatinum{
+	box-sizing: border-box;
+	border: 1em solid #b106ff;
+	transform: scale(.2);
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+aside{
+}
+.navegacao li{
+	border-box: 1px solid #rgba(204, 75, 90, 99px );
+}
+.navegacao a{
+	text-transform: none;
+	color: white;
+	text-decoration: none;
+}
+.facebook img{
+	display: block;
+	transform: size: .5;
+}
+.facebook p{
+	padding: 4em 0 0 2em;  
+}
