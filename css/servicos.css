@@ -1,0 +1,58 @@
+.servicos {
+    height: calc(100% - 30em);
+    position: absolute;
+    top: 10em;
+    left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.servico {
+    box-sizing: border-box;
+    height: 250px;
+    width: 280px;
+    border: 1px solid black;
+    padding-left: 1em;
+}
+
+.iconService:focus,
+.iconService:hover {
+    box-shadow: 0 0 10px 999999px rgba(0, 0, 0, .75);
+}
+
+.iconService:focus,
+.iconService:hover {
+    transform: rotate(-15deg) scale(1.5);
+    text-shadow: 30%;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.iconService {
+    height: 128px;
+    transform: scale(.5);
+    border: 3px solid black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -30px;
+}
+
+.container {
+    height: 1300px;
+}
+
+.informacoes-abaixo {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 18%;
+}

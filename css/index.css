@@ -11,10 +11,10 @@ div .logoStudioPlatinum {
 body {
     background-color: rgb(0, 0, 0);
 }
-.Upcontainer{
+
+.Upcontainer {
     position: relative;
 }
-
 
 .container {
     width: calc(100% - 340px);
@@ -36,8 +36,9 @@ h1 {
     text-shadow: 3px 3px #7C3D99;
     position: absolute;
     top: 0;
-    left: 45%;
+    left: 25%;
     box-sizing: border-box;
+    float: initial;
 }
 
 .barraLateralEsquerda {
@@ -63,16 +64,12 @@ h1 {
     top: 300px;
     width: 24.5%;
     float: left;
-    text-decoration: none;
     height: 1.5em;
     box-sizing: border-box;
     height: 100%;
-    /* box-sizing: border-box; */
-    /* width: 15%; */
-    /* background-color: rgb(124, 61, 153); */
 }
 
-.navegacao-site li {
+nav li {
     box-sizing: border-box;
     background-color: rgb(0, 0, 0);
     border: 2px solid #000000;
@@ -84,23 +81,19 @@ h1 {
     box-shadow: 2px 2px 8px #000;
 }
 
-.navegacao-site li:hover {
-    box-sizing: border-box;
-    padding: 1em;
-    text-align: center;
-    font-family: "Open Sans Condensed", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    width: 330px;
-    border-radius: 5px;
-}
-
 nav a {
     text-decoration-line: none;
     color: rgb(255, 255, 255);
 }
 
-.corte-longo-castanho {
+nav a:hover,
+nav a:focus {
+    text-transform: uppercase;
+}
+
+.corte-longo-castanho,
+.corte-longo-laranja,
+.corte-de-ruiva {
     position: relative;
     width: 431px;
     height: 534px;
@@ -110,12 +103,11 @@ nav a {
 }
 
 .informacoes-abaixo {
-    box-sizing: border-box;
+    ox-sizing: border-box;
     width: 100%;
-    /* height: 13em; */
-    margin-bottom: 1em;
-    bottom: 20%;
     display: flex;
+    position: relative;
+    top: 47%;
 }
 
 .secao-localizacao,
@@ -216,18 +208,13 @@ nav a {
 }
 
 .fotoCliente {
-    margin: 10em 0em 10em 0em;
+    margin: 20em 0em 10em 0em;
 }
 
 .linha-barra {
     position: relative;
     left: -100px;
     transform: scale(.8);
-}
-
-.icones-redes-sociais a {
-    height: 2.5rem;
-    width: 2.5rem;
 }
 
 .facebook {
@@ -239,19 +226,30 @@ nav a {
     left: 130px;
     height: 50px;
     width: 50px;
-    text-indent: 999999px;
+    text-indent: -999999px;
     display: block;
     border-radius: 5px;
 }
 
 
-/*.icones-redes-sociais li {
-.icones-redes-sociais{
-    position: relative;
-    left: 135px;
-    top: 350px;
-    float: left;
+/*
+
+.icones-redes-sociais a:focus:after,
+.icones-redes-sociais a:hover:after {
+    content: attr(data-legenda);
+    text-indent: 0;
+    background-color: black;
+    color: #FFF;
+    font-size: .6rem;
 }
+
+.icones-redes-sociais li {
+    .icones-redes-sociais{
+        position: relative;
+        left: 135px;
+        top: 350px;
+        float: left;
+    }
 display: inline-block;
 }
 
@@ -268,18 +266,7 @@ position: relative;
 
 
 /*
-.icones-redes-sociais a:focus:after,
-.icones-redes-sociais a:hover:after {
-content: attr(data-legenda);
-position: relative;
-top: 40%;
-left: 0%;
-text-indent: 0;
-width: 250%;
-background-color: black;
-color: #FFF;
-font-size: .6rem;
-}
+
 */
 
 
@@ -296,4 +283,10 @@ background-color: black;
 position: absolute;
 left: 0;
 transform: translateY(.5em) rotate(45deg);
-}*/
+}
+
+.icones-redes-sociais a {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+*/
